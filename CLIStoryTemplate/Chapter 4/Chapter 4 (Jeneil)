@@ -59,6 +59,9 @@ func storyTime() {
 }
 
 
+//Struts are stored in a stack
+
+
 
 storyTime()
 pageOne()

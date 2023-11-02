@@ -6,5 +6,8 @@
 import Foundation
 
 func chapterThree() {
-    // Your portion of the story goes here
+    // Once the information and secrets unravel, more victims and a society become known
+
+   // let nameOfCharacter 
+    
 }

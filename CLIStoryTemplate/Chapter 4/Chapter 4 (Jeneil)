@@ -17,6 +17,39 @@ func readStory() {
     chapterFive()
 }
 
+enum YearOfBirth {
+    case early60s
+    case mid70s
+    case late70s
+    case early2010s
+    case mid2010s
+    case late2010s
+    case early2020s
+}
+
+enum YearOfBirth: Int {
+    case early2000s = 2000
+    case mid2000s = 2005
+    case late2000s = 2010
+    case early2010s = 2015
+    case mid2010s = 2020
+    case late2010s = 2025
+    case early2020s = 2030
+    case unknown = 9999
+}
+
+
+ 
+// Example usage of the enum with a for loop
+for year in YearOfBirth.early2000s.rawValue...YearOfBirth.mid2010s.rawValue {
+    let birthYear = YearOfBirth(rawValue: year) ?? .unknown
+    print("A person born in \(year) is from the \(birthYear) era.")
+}
+
+let chapterFour =
+
+//delete this code
+let chapterFive = ["love", "Life", "Loyalty"]
 
 let characters = ["Jackil", "Farouck", "Kayden", "Raven"]
 //Array is characters
@@ -28,6 +61,7 @@ if characters.contains("Jackil") {
 }
 
 // *If/Else statement is above
+
 
 let person = "mainCharacter"
 let story = "nostalgiaStory"
@@ -43,10 +77,16 @@ var prisoner = "Serial Killer"
 
 readStory()
 
-func pageOne() {
-    print(" Believe it or not, I am a serial killer who targets his victims with great precision. I am notorius for his brutality and psychopathic tendencies, which include acts of murder, mutilation, and cannibalism. I witnessed my parents murderded during the war but wasnt able to attend their funeral unfortunately. My Mother and Father were captured and held captive for 3 weeks without food, or water. On the last day of their imprisonment, I was reunited with them only for them to be murdered in front of me. European soldiers did this cruel act in front of me and I will never forget it. This is what started my life of crime. After this traumatic event, I fell into a deep depression and began inflicting self-harm. My fist victim was my pet cat, thomas.")
-    
+func WelcomeToChapter4() {
+    print(" Believe it or not, I am a serial killer who targets his victims with great precision. I am notorius for his brutality and psychopathic tendencies, which include acts of murder, mutilation, and cannibalism. I witnessed my parents murderded during the war but wasnt able to attend their funeral unfortunately. My Mother and Father were captured and held captive for 3 weeks without food, or water. On the last day of their imprisonment, I was reunited with them only for them to be murdered in front of me. European soldiers did this cruel act in front of me and I will never forget it. This is what started my life of crime. After this traumatic event, I fell into a deep depression and began inflicting self-harm. My fist victim was my pet cat, thomas. We were lost and then we were found eventually. I didn't understand at first but we will learn eventually that we are all damaged in some kind of way.)
 }
+          
+func welcomeToChapter() {
+              print(" Believe it or not, I am a serial killer who targets his victims with great precision. I am notorius for his brutality and psychopathic tendencies, which include acts of murder, mutilation, and cannibalism. I witnessed my parents murderded during the war but wasnt able to attend their funeral unfortunately. My Mother and Father were captured and held captive for 3 weeks without food, or water. On the last day of their imprisonment, I was reunited with them only for them to be murdered in front of me. European soldiers did this cruel act in front of me and I will never forget it. This is what started my life of crime. After this traumatic event, I fell into a deep depression and began inflicting self-harm. My fist victim was my pet cat, thomas. We were lost and then we were found eventually. I didn't understand at first but we will learn eventually that we are all damaged in some kind of way.)
+}
+                    
+//Understand this is just a type of statement
+//switch code out each time
 //Pages Will be commented out
 func pageTwo() {
     print("")
@@ -60,6 +100,7 @@ func storyTime() {
 
 
 //Struts are stored in a stack
+
 
 
 

@@ -18,7 +18,7 @@ enum Nickname: String, CaseIterable{
 
 
 
-/*func checkAge() {
+/*func checkAge() qw{
     if age == 40 {
         print("I have been here for 15 GOD FORSAKEN YEARS AND IS STILL SERVING LIFE!!")
     } else {

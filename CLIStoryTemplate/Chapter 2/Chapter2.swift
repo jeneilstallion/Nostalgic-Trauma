@@ -7,23 +7,38 @@ import Foundation
 
 var age = 40
 let prisonerName: String = "Kaden"
-let nickNames: [String] = ["Dismembermented, The kazekage killer, Shadow Walker"]
+//let nickNames: [String] = ["Dismembermented, The kazekage killer, Shadow Walker"]
 let favNick: String = "variance"
 
+enum Nickname: String, CaseIterable{
+        case dismembermented = "Dismembermented"
+        case kazekageKiller = "The Kazekage Killer"
+        case shadowWalker = "Shadow Walker"
+}
 
-func checkAge() {
+
+
+/*func checkAge() {
     if age == 40 {
         print("I have been here for 15 GOD FORSAKEN YEARS AND IS STILL SERVING LIFE!!")
     } else {
         print("Screw you")
     }
-}
-        
+}*/
+     
+
     func chapterTwo() {
         
-        let nickNames: [String] = ["Dismembermented, The kazekage killer, Shadow Walker"]
+        let nickNames: [Nickname] = [.dismembermented, .kazekageKiller, .shadowWalker]
         let favNick: String = "variance"
         let agreed: Bool = false
+        
+        func printNickNamesO()  {
+            for names in nickNames {
+                names.rawValue
+            }
+        
+        }
 
 
 
@@ -37,7 +52,7 @@ func checkAge() {
     }
 
 
-        
+ /*
     print("The Visit")
     
     print("My name is \(prisonerName) but you may know me by \(nickNames) but my personal Favorite Is \(favNick) and I am \(age) years old and is currently serving my life sentence in prison.")
@@ -91,7 +106,7 @@ func checkAge() {
     print("Ten seconds left detective the clock is ticking")
     for countDown in 10...1 {
         print(countDown)
-    }
+    }*/
     var mainCharacter = Character(name: "", age: "", race: "", gender: "")
         
 print("Enter your name: ")
@@ -113,7 +128,12 @@ print("Enter your name: ")
         
         func introduction(){
             
-            print("Welcom my name is \(mainCharacter.name) but you might know me as names such as \(nickNames) or my favorite on \(favNick), i'm \(mainCharacter.age) and i am a \(mainCharacter.race) \(mainCharacter.gender) that is currently serving life in prison but then something unexpected happened.")
+            
+            
+//            print("Welcome my name is \(mainCharacter.name) but you might know me as names such as \(nickNames) or my favorite one \(favNick), i'm \(mainCharacter.age) and i am a \(mainCharacter.race) \(mainCharacter.gender) that is currently serving life in prison but then something unexpected happened.")
+            print("Welcome my name is \(mainCharacter.name) but you might know me as names such as")
+                  printNickNamesO()
+               print(" or my favorite one \(favNick), i'm \(mainCharacter.age) and i am a \(mainCharacter.race) \(mainCharacter.gender) that is currently serving life in prison but then something unexpected happened.")
         }
 
         //introduction()

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3DC54E35-20CD-4404-B62F-759689CE3187"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B41CBDF4-D21C-4CD7-85A0-B5A01719709D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../var/folders/4v/42vr9qln73g88w8_8yq4hc9h0000gq/T/xcode/scm/Nostalgic-Trauma/27915aea0dd09afc6d0a9566dd466218e893b10f/CLIStoryTemplate/Chapter 2/Chapter2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "chapterTwo()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A472B9F4-6820-4F0E-9194-222D985D8462"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CLIStoryTemplate/Chapter 2/Chapter2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "printNickNamesO()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A472B9F4-6820-4F0E-9194-222D985D8462 - 70aaf0214c0eaf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "printNickNamesO() -&gt; ()"
+                  moduleName = "Nostalgic Trauma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unknownkirby/Documents/Nostalgic-Trauma/CLIStoryTemplate/Chapter%202/Chapter2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "A472B9F4-6820-4F0E-9194-222D985D8462 - 70aaf0214c0eaf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "printNickNamesO() -&gt; ()"
+                  moduleName = "Nostalgic Trauma"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/unknownkirby/Documents/Nostalgic-Trauma/CLIStoryTemplate/Chapter%202/Chapter2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B12CB29-B93A-454C-85C5-7C753F936D87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CLIStoryTemplate/Chapter 2/Chapter2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "chapterTwo()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

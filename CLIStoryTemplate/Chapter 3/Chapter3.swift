@@ -6,6 +6,7 @@
 import Foundation
 
 func chapterThree() {
+//<<<<<<< HEAD
 
     struct Character{
         
@@ -25,4 +26,10 @@ func chapterThree() {
     if let userInput = readLine() {
         mainCharacter.name = userInput
     }
+//=======
+    // Once the information and secrets unravel, more victims and a society become known
+
+   // let nameOfCharacter 
+    
+//>>>>>>> main
 }

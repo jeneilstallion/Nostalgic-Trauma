@@ -106,8 +106,8 @@
 		74E289D12A7C2307003072EC /* Chapter 4 */ = {
 			isa = PBXGroup;
 			children = (
-				74E289CA2A7C2221003072EC /* Chapter4.swift */,
 				74E289BD2A7C21FC003072EC /* Chapter 4 (Jeneil) */,
+				74E289CA2A7C2221003072EC /* Chapter4.swift */,
 			);
 			path = "Chapter 4";
 			sourceTree = "<group>";

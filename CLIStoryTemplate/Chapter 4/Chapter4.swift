@@ -14,6 +14,7 @@ enum IncarcerationStatus {
 struct MainCharacter {
     var name: String
     var motherName: String?
+    //optional string - nil
     var fatherName: String
     var fatherIncarcerationStatus: IncarcerationStatus
 }

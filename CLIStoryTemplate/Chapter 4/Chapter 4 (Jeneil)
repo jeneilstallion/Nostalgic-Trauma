@@ -1,0 +1,122 @@
+//
+//  main.swift
+//  CLIStoryTemplate
+//
+
+//Jeneil Stallion CH. 4
+//Jeneil Stallion CH. 4
+//Jeneil Stallion CH. 4
+
+import Foundation
+
+func readStory() {
+    chapterOne()
+    chapterTwo()
+    chapterThree()
+    chapterFour()
+    chapterFive()
+}
+
+enum YearOfBirth {
+    case early60s
+    case mid70s
+    case late70s
+    case early2010s
+    case mid2010s
+    case late2010s
+    case early2020s
+}
+
+enum YearOfBirth: Int {
+    case early2000s = 2000
+    case mid2000s = 2005
+    case late2000s = 2010
+    case early2010s = 2015
+    case mid2010s = 2020
+    case late2010s = 2025
+    case early2020s = 2030
+    case unknown = 9999
+}
+
+let jail = "Locked up"
+
+switch jail {
+case "Locked up", "Free", "On probation", "On trial":
+    print("My father is Incarcerated")
+case "
+//Conditional
+    
+    
+// Example usage of the enum with a for loop
+for year in YearOfBirth.early2000s.rawValue...YearOfBirth.mid2010s.rawValue {
+    let birthYear = YearOfBirth(rawValue: year) ?? .unknown
+    print("A person born in \(year) is from the \(birthYear) era.")
+}
+
+let chapterFour =
+
+let characters = ["Jackil", "Farouck", "Kayden", "Raven"]
+//Array is characters
+
+if characters.contains("Jackil") {
+    print("Jackil is the main character.")
+} else {
+    print("Jackil is not the main character.")
+}
+
+// *If/Else statement is above
+
+let person = "mainCharacter"
+let story = "nostalgiaStory"
+let setting = "Scary Town"
+let parents = "love"
+
+let name = "Jackill Jones"
+let age = 150
+let greeting = "Hello, my name is \(name) and I am \(age) years old."
+//String Interplotation
+
+var prisoner = "Serial Killer"
+
+readStory()
+
+func welcomeToChapter4() {
+    print(" I witnessed my parents murderded during the war but wasnt able to attend their funeral unfortunately. My Mother and Father were captured and held captive for 3 weeks without food, or water. On the last day of their imprisonment, I was reunited with them only for them to be murdered in front of me. European soldiers did this cruel act in front of me and I will never forget it. This is what started my life of crime. After this traumatic event, I fell into a deep depression and began inflicting self-harm. there lived a child named Alex. He had grown up never having the chance to meet his parents. His mother had passed away during childbirth, leaving him to face the world alone. As for his father, he had been in jail for as long as Alex could remember.
+          
+        "My life had been filled with uncertainty and solitude. I was raised in an orphanage, surrounded by caretakers and other children. I always prayed for the warmth and love of a family. I use to spend my days watching other kids being picked up by their parents, attending school events with their families, and sharing stories of their mom and dad.
+          
+        "As I grew older, I became more curious about my father. I knew little about him except for the fact that he was incarcerated. I always wondered what my dad was like and why he was in jail. These questions fueled my desire to find answers."
+
+        "On my 18th birthday, I decided it was time to learn more about my father. I began by searching through old records, taking geniology tests, and speaking to the orphanage staff. I discovered that my father's name was Michael, and he was imprisoned for murder."
+
+        "I was in complete shock when I learned this information and wondered why my father was even in a situation that lead to this outcome. I reached out to my father through letters, asking him about his life, his dreams, and his longing to meet the son that he never met. The letters weren't easy to write, but I felt a sense of connection I had never experienced before.
+
+        "Months turned into years, and my determination to establish a bond with my father never happened. I attended college, earned a degree, and even started a small business but unfortuanately, my father parents were never there to see my success."
+
+        "As a couple years passed, I finally received a response from my so-called Father. He  expressed his love and longing to see his me. Son, I am so proud of you, he said. I had changed during his time in prison, and I am determined to set a better example for his you. The authorities had decided to grant him parole, and he was released. We finally met at the gates of the prison, both of out eyes filled with tears. It was a moment that we both had dreamed of. This was only the beggining og our journey. We have alot of cathing up to do."
+
+
+
+
+
+")
+    
+}
+//Pages Will be commented out
+func pageTwo() {
+    print("")
+}
+
+func storyTime() {
+    print("Once upon a time")
+    print("As the story goes")
+                                                                                    
+}
+
+
+//Struts are stored in a stack
+
+
+//Jeneil Stallion CH. 4
+//Jeneil Stallion CH. 4
+//Jeneil Stallion CH. 4  

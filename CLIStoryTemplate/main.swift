@@ -7,7 +7,7 @@
 
 import Foundation
 
-func readStory() {
+func readStory(){
     chapterOne()
     chapterTwo()
     chapterThree()
